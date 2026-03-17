@@ -1,5 +1,5 @@
 Title: README.txt
-Date:  February 23rd, 2026
+Date:  March 17th, 2026
 
 Description: 
 ============
@@ -35,10 +35,13 @@ $./Murata_Wireless_Yocto_Build_IFX.sh
 --------------------------------------------------------------------------------------
 | Kernel release | Yocto code name  |  FMAC code name |  Release information         |
 |----------------|------------------|-----------------|------------------------------|
+| 6.12.34_1.0.0  | Walnascar        |  Longma         |  imx-walnascar-longma_r1.0   |
+|----------------|------------------|-----------------|------------------------------|
 | 6.12.3_1.0.0   | Styhead          |  Longma         |  imx-styhead-longma_r1.0     |
 |----------------|------------------|-----------------|------------------------------|
 | 6.6.23_2.0.0   | Scarthgap        |  Jaculus        |  imx-scarthgap-jaculus_r1.1  |
 |                |                  |  Kraken         |  imx-scarthgap-kraken_r1.0   |
+|                |                  |  Longma         |  imx-scarthgap-longma_r1.0   |
 |----------------|------------------|-----------------|------------------------------|
 | 6.1.36_2.1.0   | Mickeldore       |  Hedorah        |  imx-mickledore-hedorah_r1.0 |
 |                |                  |  Indrik         |  imx-mickledore-indrik_r1.0  |

@@ -1,5 +1,5 @@
 Title: README-IFX.txt
-Date:  February 23rd, 2026
+Date:  March 17th, 2026
 
 Description: 
 ============
@@ -28,25 +28,29 @@ Script which prompts the user for target hardware/CPU, additional hardware confi
 branch or tag release. It then error checks the input before kicking off Murata-customized Yocto build. The last command
 invoked is "bitbake" to generate the final/desired SD card image. 
 NOTE: the final "bitbake" command will take hours to complete. 
-Open a terminal in desired i.MX Yocto build folder, and run the command: 
+Open a terminal in desired i.MX Yocto build folder, and run the command:
+
 $./Murata_Wireless_Yocto_Build_IFX.sh
 
 --------------------------------------------------------------------------------------
 | Kernel release | Yocto code name  |  FMAC code name |  Release information         |
 |----------------|------------------|-----------------|------------------------------|
+| 6.12.34_1.0.0  | Walnascar        |  Longma         |  imx-walnascar-longma_r1.0   |
+|----------------|------------------|-----------------|------------------------------|
 | 6.12.3_1.0.0   | Styhead          |  Longma         |  imx-styhead-longma_r1.0     |
 |----------------|------------------|-----------------|------------------------------|
 | 6.6.23_2.0.0   | Scarthgap        |  Jaculus        |  imx-scarthgap-jaculus_r1.1  |
 |                |                  |  Kraken         |  imx-scarthgap-kraken_r1.0   |
+|                |                  |  Longma         |  imx-scarthgap-longma_r1.0   |
 |----------------|------------------|-----------------|------------------------------|
 | 6.1.36_2.1.0   | Mickeldore       |  Hedorah        |  imx-mickledore-hedorah_r1.0 |
 |                |                  |  Indrik         |  imx-mickledore-indrik_r1.0  |
 |                |                  |  Jaculus        |  imx-mickledore-jaculus_r1.0 |
 |                |                  |  Kraken         |  imx-mickledore-kraken_r1.0  |
+|                |                  |  Longma         |  imx-mickledore-longma_r1.0  |
 |----------------|------------------|-----------------|------------------------------|
 | 5.15.32_2.0.0  | Kirkstone        |  Indrik         |  imx-kirkstone-indrik_r1.0   |
 |                |                  |  Jaculus        |  imx-kirkstone-jaculus_r1.0  |
 |                |                  |  Kraken         |  imx-kirkstone-kraken_r1.0   |
+|                |                  |  Longma         |  imx-kirkstone-longma_r1.0   |
 --------------------------------------------------------------------------------------
-
-
